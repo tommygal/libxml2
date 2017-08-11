@@ -13343,6 +13343,7 @@ xmlParseExternalEntityPrivate(xmlDocPtr doc, xmlParserCtxtPtr oldctxt,
 
     /*
      * Also record the size of the entity parsed
+     *
      */
     if (ctxt->input != NULL) {
 	oldctxt->sizeentities += ctxt->input->consumed;
