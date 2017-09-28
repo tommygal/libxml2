@@ -4159,7 +4159,7 @@ xmlParseAttValueComplex(xmlParserCtxtPtr ctxt, int *attlen, int normalize) {
         goto error;
 
     if ((in_space) && (normalize)) {
-        while ((len > 0) && (buf[len - 1] == 0x20)) len--;
+        while (buf[len - 1] == 0x20) len--;
     }
     buf[len] = 0;
     if (RAW == '<') {
