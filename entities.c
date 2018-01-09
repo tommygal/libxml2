@@ -1,3 +1,4 @@
+srj
 /*
  * entities.c : implementation for the XML entities handling
  *
